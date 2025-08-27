@@ -1,0 +1,30 @@
+# Source files (only ship built files)
+src/
+rollup.config.js
+.eslintrc.js
+jest.config.js
+
+# Development files
+.gitignore
+.git/
+.github/
+.vscode/
+.idea/
+
+# Test files
+test/
+tests/
+__tests__/
+*.test.js
+*.spec.js
+coverage/
+
+# Documentation source
+docs/
+
+# Build artifacts
+*.log
+.DS_Store
+node_modules/
+
+# Keep only dist/, README, and LICENSE

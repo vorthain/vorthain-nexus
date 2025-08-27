@@ -1,0 +1,58 @@
+{
+  "name": "@vorthain/nexus",
+  "version": "0.1.0",
+  "description": "A lightweight, type-safe pub/sub library for JavaScript applications.",
+  "main": "src/index.js",
+  "type": "module",
+  "author": "Vorthain",
+  "license": "MIT",
+  "homepage": "https://github.com/vorthain/vorthain-nexus",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vorthain/vorthain-nexus.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "event",
+    "events",
+    "event-bus",
+    "event-emitter",
+    "pubsub",
+    "pub-sub",
+    "publish-subscribe",
+    "observer",
+    "listener",
+    "dispatcher",
+    "typed",
+    "typescript",
+    "nexus",
+    "vorthain",
+    "@vorthain",
+    "vorthain-nexus",
+    "@vorthain/nexus"
+  ],
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:ci": "jest --coverage --ci --watchAll=false",
+    "prepublishOnly": "npm test"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "babel-jest": "^30.0.5",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
