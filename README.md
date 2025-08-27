@@ -12,7 +12,7 @@ Building decoupled, maintainable applications often requires a reliable way for 
 
 - **Type Safety**: Define your events upfront and get autocomplete in modern IDEs
 - **Debugging Built-in**: Toggle debug mode to see all events flowing through your system
-- **Lightweight**: Zero dependencies, ~2KB minified
+- **Lightweight**: Zero dependencies
 - **Predictable**: No wildcard events, no event bubbling, no hidden surprises
 - **Battle-tested patterns**: Implements proven pub/sub patterns with a clean API
 
